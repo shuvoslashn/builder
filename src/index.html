@@ -1,0 +1,763 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Bootstrap demo</title>
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+        />
+        <link
+            href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+            rel="stylesheet"
+        />
+        <!-- style css -->
+        <link rel="stylesheet" href="./assets/css/style.css" />
+    </head>
+    <body data-bs-spy="scroll" data-bs-target="#header">
+        <!---------  Header area start  --------->
+        <header class="header-area py-2 fixed-top" id="header">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container">
+                    <a class="navbar-brand fw-bold" href="#">
+                        <i class="bx bxs-bar-chart-alt-2 me-1"></i>builder
+                    </a>
+                    <button
+                        class="navbar-toggler border-0"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                    >
+                        <!-- <span class="navbar-toggler-icon"></span> -->
+                        <i class="bx bx-category-alt"></i>
+                    </button>
+                    <div
+                        class="collapse navbar-collapse"
+                        id="navbarSupportedContent"
+                    >
+                        <ul
+                            class="navbar-nav gap-1 gap-md-3 ms-auto mb-2 mb-lg-0"
+                        >
+                            <li class="nav-item">
+                                <a
+                                    class="nav-link active"
+                                    aria-current="page"
+                                    href="#home"
+                                    >Home</a
+                                >
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#about">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#services"
+                                    >Services</a
+                                >
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#testimonial"
+                                    >Testimonial</a
+                                >
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contacts"
+                                    >Contacts</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <!---------  Header area end  --------->
+
+        <!-- Hero section start -->
+        <section class="hero-area pt-5" id="home">
+            <div class="container py-5">
+                <div class="row h-100 align-items-center">
+                    <div class="col-lg-6">
+                        <div
+                            class="hero-content py-5 text-center text-md-start"
+                        >
+                            <h1 class="display-4 fw-bold">
+                                Build your own kindom with builder.
+                            </h1>
+                            <p class="py-3">
+                                Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Voluptatibus odio nisi ab
+                                dolores quisquam autem doloribus enim error
+                                deleniti rerum ex incidunt dignissimos aliquam
+                                ut deserunt odit vitae, sit sequi!
+                            </p>
+                            <a href="#" class="btn btn-dark px-5 py-3"
+                                >Know More</a
+                            >
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <img
+                            src="./assets/img/hero.jpg"
+                            alt=""
+                            class="img-fluid"
+                        />
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Hero section end -->
+
+        <!-- About section start -->
+        <section class="about py-5 bg-dark text-light" id="about">
+            <div class="container w-75 text-center py-5">
+                <h2 class="text-white">Know More about us</h2>
+                <p class="py-4">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Eaque hic porro cupiditate laborum. Repellat, illo. Odio
+                    quod libero mollitia modi nihil magnam perferendis porro,
+                    itaque reiciendis in ipsam dolorem doloremque.
+                </p>
+                <p class="py-4">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Eaque hic porro cupiditate laborum. Repellat, illo. Odio
+                    quod libero mollitia modi nihil magnam perferendis porro,
+                    itaque reiciendis in ipsam dolorem doloremque. Lorem ipsum
+                    dolor sit amet consectetur, adipisicing elit. Eaque hic
+                    porro cupiditate laborum. Repellat, illo. Odio quod libero
+                    mollitia modi nihil magnam perferendis porro, itaque
+                    reiciendis in ipsam dolorem doloremque.
+                </p>
+                <p class="py-4">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Eaque hic porro cupiditate laborum. Repellat, illo. Odio
+                    quod libero mollitia modi nihil magnam perferendis porro,
+                    itaque reiciendis in ipsam dolorem doloremque.
+                </p>
+                <img src="./assets/img/sign.png" alt="" width="200" />
+            </div>
+        </section>
+        <!-- About section end -->
+
+        <!-- Service section start -->
+        <section class="service-area py-5" id="services">
+            <div class="container py-5">
+                <!-- section title -->
+                <div class="section-title">
+                    <div class="row align-items-center">
+                        <div class="col-md-6 text-center text-md-start">
+                            <h2 class="fw-bold pb-0 pb-md-2">
+                                Know Our Services
+                            </h2>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit.
+                            </p>
+                        </div>
+                        <div class="col-md-6 text-end d-none d-md-block">
+                            <a href="#" class="btn btn-outline-dark px-4 py-2">
+                                see more
+                                <i class="bx bx-right-arrow-alt ms-1"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="services mt-md-5 mt-2">
+                    <div class="row">
+                        <!-- single service start -->
+                        <div class="col-md-4 mb-4">
+                            <div class="single-service">
+                                <i
+                                    class="bx bx-qr p-3 h2 bg-dark text-light rounded-5"
+                                ></i>
+                                <h5 class="fw-bold pt-4 pb-2">
+                                    Contruction center
+                                </h5>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur
+                                    adipisicing elit. Impedit ad voluptates at
+                                    nisi reiciendis nesciunt.
+                                </p>
+                            </div>
+                        </div>
+                        <!-- single service end -->
+                        <!-- single service start -->
+                        <div class="col-md-4 mb-4">
+                            <div class="single-service">
+                                <i
+                                    class="bx bx-qr p-3 h2 bg-dark text-light rounded-5"
+                                ></i>
+                                <h5 class="fw-bold pt-4 pb-2">
+                                    Contruction center
+                                </h5>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur
+                                    adipisicing elit. Impedit ad voluptates at
+                                    nisi reiciendis nesciunt.
+                                </p>
+                            </div>
+                        </div>
+                        <!-- single service end -->
+                        <!-- single service start -->
+                        <div class="col-md-4 mb-4">
+                            <div class="single-service">
+                                <i
+                                    class="bx bx-qr p-3 h2 bg-dark text-light rounded-5"
+                                ></i>
+                                <h5 class="fw-bold pt-4 pb-2">
+                                    Contruction center
+                                </h5>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur
+                                    adipisicing elit. Impedit ad voluptates at
+                                    nisi reiciendis nesciunt.
+                                </p>
+                            </div>
+                        </div>
+                        <!-- single service end -->
+                        <!-- single service start -->
+                        <div class="col-md-4 mb-4">
+                            <div class="single-service">
+                                <i
+                                    class="bx bx-qr p-3 h2 bg-dark text-light rounded-5"
+                                ></i>
+                                <h5 class="fw-bold pt-4 pb-2">
+                                    Contruction center
+                                </h5>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur
+                                    adipisicing elit. Impedit ad voluptates at
+                                    nisi reiciendis nesciunt.
+                                </p>
+                            </div>
+                        </div>
+                        <!-- single service end -->
+                        <!-- single service start -->
+                        <div class="col-md-4 mb-4">
+                            <div class="single-service">
+                                <i
+                                    class="bx bx-qr p-3 h2 bg-dark text-light rounded-5"
+                                ></i>
+                                <h5 class="fw-bold pt-4 pb-2">
+                                    Contruction center
+                                </h5>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur
+                                    adipisicing elit. Impedit ad voluptates at
+                                    nisi reiciendis nesciunt.
+                                </p>
+                            </div>
+                        </div>
+                        <!-- single service end -->
+                        <!-- single service start -->
+                        <div class="col-md-4 mb-4">
+                            <div class="single-service">
+                                <i
+                                    class="bx bx-qr p-3 h2 bg-dark text-light rounded-5"
+                                ></i>
+                                <h5 class="fw-bold pt-4 pb-2">
+                                    Contruction center
+                                </h5>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur
+                                    adipisicing elit. Impedit ad voluptates at
+                                    nisi reiciendis nesciunt.
+                                </p>
+                            </div>
+                        </div>
+                        <!-- single service end -->
+                    </div>
+                </div>
+                <!-- hidden button -->
+                <div class="text-center mt-4 d-block d-md-none">
+                    <a href="#" class="btn btn-outline-dark px-4 py-2">
+                        see more
+                        <i class="bx bx-right-arrow-alt ms-1"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <!-- Service section end -->
+
+        <!-- Testimonial section start -->
+        <section class="testimonial-area py-5 bg-light" id="testimonial">
+            <div class="container py-5">
+                <!-- section title -->
+                <div class="section-title">
+                    <div class="row align-items-center">
+                        <div class="col-md-6 text-center text-md-start">
+                            <h2 class="fw-bold pb-0 pb-md-2">
+                                See our testimonial
+                            </h2>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit.
+                            </p>
+                        </div>
+                        <div class="col-md-6 text-end d-none d-md-block">
+                            <a href="#" class="btn btn-outline-dark px-4 py-2">
+                                see more
+                                <i class="bx bx-right-arrow-alt ms-1"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonials mt-md-5 mt-2">
+                    <div class="row">
+                        <!-- single testimonial start -->
+                        <div class="col-md-4 mb-4">
+                            <div class="single-testimonial">
+                                <div class="row">
+                                    <div class="col-5">
+                                        <img
+                                            src="./assets/img/Ellipse1.png"
+                                            alt=""
+                                            width="80"
+                                            class="d-block mb-3"
+                                        />
+                                        <h5 class="fw-bold">Jhon Doe</h5>
+                                        <p class="small">Creative Director</p>
+                                    </div>
+                                    <div class="col-7">
+                                        <p>
+                                            Lorem ipsum dolor, sit amet conse
+                                            cte tur adipi sici ng elit. Culpa
+                                            asperiores molestiae.
+                                        </p>
+                                        <div class="stars">
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star-half"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- single testimonial start -->
+
+                        <!-- single testimonial start -->
+                        <div class="col-md-4 mb-4">
+                            <div class="single-testimonial">
+                                <div class="row">
+                                    <div class="col-5">
+                                        <img
+                                            src="./assets/img/Ellipse2.png"
+                                            alt=""
+                                            width="80"
+                                            class="d-block mb-3"
+                                        />
+                                        <h5 class="fw-bold">Jhon Doe</h5>
+                                        <p class="small">Creative Director</p>
+                                    </div>
+                                    <div class="col-7">
+                                        <p>
+                                            Lorem ipsum dolor, sit amet conse
+                                            cte tur adipi sici ng elit. Culpa
+                                            asperiores molestiae.
+                                        </p>
+                                        <div class="stars">
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star-half"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- single testimonial start -->
+                        <!-- single testimonial start -->
+                        <div class="col-md-4 mb-4">
+                            <div class="single-testimonial">
+                                <div class="row">
+                                    <div class="col-5">
+                                        <img
+                                            src="./assets/img/Ellipse3.png"
+                                            alt=""
+                                            width="80"
+                                            class="d-block mb-3"
+                                        />
+                                        <h5 class="fw-bold">Jhon Doe</h5>
+                                        <p class="small">Creative Director</p>
+                                    </div>
+                                    <div class="col-7">
+                                        <p>
+                                            Lorem ipsum dolor, sit amet conse
+                                            cte tur adipi sici ng elit. Culpa
+                                            asperiores molestiae.
+                                        </p>
+                                        <div class="stars">
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star-half"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- single testimonial start -->
+                        <!-- single testimonial start -->
+                        <div class="col-md-4 mb-4">
+                            <div class="single-testimonial">
+                                <div class="row">
+                                    <div class="col-5">
+                                        <img
+                                            src="./assets/img/Ellipse4.png"
+                                            alt=""
+                                            width="80"
+                                            class="d-block mb-3"
+                                        />
+                                        <h5 class="fw-bold">Jhon Doe</h5>
+                                        <p class="small">Creative Director</p>
+                                    </div>
+                                    <div class="col-7">
+                                        <p>
+                                            Lorem ipsum dolor, sit amet conse
+                                            cte tur adipi sici ng elit. Culpa
+                                            asperiores molestiae.
+                                        </p>
+                                        <div class="stars">
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star-half"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- single testimonial start -->
+                        <!-- single testimonial start -->
+                        <div class="col-md-4 mb-4">
+                            <div class="single-testimonial">
+                                <div class="row">
+                                    <div class="col-5">
+                                        <img
+                                            src="./assets/img/Ellipse5.png"
+                                            alt=""
+                                            width="80"
+                                            class="d-block mb-3"
+                                        />
+                                        <h5 class="fw-bold">Jhon Doe</h5>
+                                        <p class="small">Creative Director</p>
+                                    </div>
+                                    <div class="col-7">
+                                        <p>
+                                            Lorem ipsum dolor, sit amet conse
+                                            cte tur adipi sici ng elit. Culpa
+                                            asperiores molestiae.
+                                        </p>
+                                        <div class="stars">
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star-half"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- single testimonial start -->
+                        <!-- single testimonial start -->
+                        <div class="col-md-4 mb-4">
+                            <div class="single-testimonial">
+                                <div class="row">
+                                    <div class="col-5">
+                                        <img
+                                            src="./assets/img/Ellipse6.png"
+                                            alt=""
+                                            width="80"
+                                            class="d-block mb-3"
+                                        />
+                                        <h5 class="fw-bold">Jhon Doe</h5>
+                                        <p class="small">Creative Director</p>
+                                    </div>
+                                    <div class="col-7">
+                                        <p>
+                                            Lorem ipsum dolor, sit amet conse
+                                            cte tur adipi sici ng elit. Culpa
+                                            asperiores molestiae.
+                                        </p>
+                                        <div class="stars">
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star-half"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- single testimonial start -->
+                    </div>
+                </div>
+                <!-- hidden button -->
+                <div class="text-center mt-4 d-block d-md-none">
+                    <a href="#" class="btn btn-outline-dark px-4 py-2">
+                        see more
+                        <i class="bx bx-right-arrow-alt ms-1"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <!-- Testimonial section end -->
+
+        <!-- Contact section start -->
+        <section class="contact-area py-5" id="contacts">
+            <div class="container py-5">
+                <div class="section-title text-center">
+                    <h2 class="fw-bold pb-2">Feel free to contact</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                </div>
+
+                <div class="row mt-0 mt-md-5 m-auto">
+                    <div
+                        class="col-md-6 mt-3 pe-0 pe-md-5 order-1 order-md-0 pt-5 pt-md-0"
+                    >
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3618.8509093946186!2d91.84816497505804!3d24.903066643551973!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x37505537d8a66533%3A0xc5a564325239470e!2sBagbari%20Rd%2C%20Sylhet!5e0!3m2!1sen!2sbd!4v1683782101956!5m2!1sen!2sbd"
+                            height="450"
+                            style="border: 0"
+                            allowfullscreen=""
+                            loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"
+                            class="w-100"
+                        ></iframe>
+                    </div>
+                    <div class="col-md-6 order-0 order-md-1">
+                        <!-- form start -->
+                        <form class="needs-validation contact-form" novalidate>
+                            <!-- full name -->
+                            <input
+                                type="text"
+                                class="form-control mt-3"
+                                placeholder="Enter your full name"
+                                id="validationDefault01"
+                                required
+                            />
+
+                            <!-- email -->
+                            <input
+                                type="email"
+                                class="form-control mt-3"
+                                placeholder="Enter your email"
+                                id="validationDefault02"
+                                required
+                            />
+
+                            <!-- subject -->
+                            <input
+                                type="text"
+                                class="form-control mt-3"
+                                placeholder="Enter the subject"
+                                id="validationDefault03"
+                                required
+                            />
+
+                            <!-- message -->
+                            <textarea
+                                class="form-control mt-3"
+                                placeholder="Drop us a message"
+                                id="validationDefault04"
+                                rows="6"
+                                required
+                            ></textarea>
+
+                            <!-- submit button -->
+                            <button
+                                class="btn btn-outline-dark py-2 w-100 d-block mt-3"
+                            >
+                                Submit form
+                            </button>
+                        </form>
+                        <!-- form end -->
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Contact section end -->
+
+        <!-- Footer area start -->
+        <footer class="footer-area">
+            <!-- footer top start -->
+            <div class="footer-top bg-dark py-5">
+                <div class="container">
+                    <!-- footer top -->
+                    <div class="row">
+                        <!-- footer part 1 -->
+                        <div class="col-md-3 pb-5 pb-md-0">
+                            <div class="footer-1">
+                                <h4 class="text-white">
+                                    <i class="bx bxs-bar-chart-alt-2 me-1"></i>
+                                    builder
+                                </h4>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur
+                                    adipisicing elit. Quaerat nobis odit nam
+                                    mag.
+                                </p>
+                                <div class="social">
+                                    <i class="bx bxl-facebook social-icons"></i>
+                                    <i class="bx bxl-twitter social-icons"></i>
+                                    <i class="bx bxl-linkedin social-icons"></i>
+                                    <i
+                                        class="bx bxl-instagram social-icons"
+                                    ></i>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- footer part 2 -->
+                        <div class="col-md-3 pb-3 pb-md-0">
+                            <div class="footer-2">
+                                <h6
+                                    class="text-white border-start border-4 ps-3"
+                                >
+                                    Quick Links
+                                </h6>
+                                <ul class="list-unstyled mt-3">
+                                    <li
+                                        class="d-flex align-items-center gap-2 ps-3 footer-link pb-2"
+                                    >
+                                        <i class="bx bxs-log-in-circle"></i>
+                                        <a href="#" class="nav-link"
+                                            >Privacy Policy</a
+                                        >
+                                    </li>
+                                    <li
+                                        class="d-flex align-items-center gap-2 ps-3 footer-link pb-2"
+                                    >
+                                        <i class="bx bxs-log-in-circle"></i>
+                                        <a href="#" class="nav-link"
+                                            >Terms & conditions</a
+                                        >
+                                    </li>
+                                    <li
+                                        class="d-flex align-items-center gap-2 ps-3 footer-link pb-2"
+                                    >
+                                        <i class="bx bxs-log-in-circle"></i>
+                                        <a href="#" class="nav-link">Career</a>
+                                    </li>
+                                    <li
+                                        class="d-flex align-items-center gap-2 ps-3 footer-link pb-2"
+                                    >
+                                        <i class="bx bxs-log-in-circle"></i>
+                                        <a href="#" class="nav-link">Help</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- footer part 3 -->
+                        <div class="col-md-3 pb-3 pb-md-0">
+                            <div class="footer-3">
+                                <h6
+                                    class="text-white border-start border-4 ps-3"
+                                >
+                                    Business
+                                </h6>
+                                <ul class="list-unstyled mt-3">
+                                    <li
+                                        class="d-flex align-items-center gap-2 ps-3 footer-link pb-2"
+                                    >
+                                        <i class="bx bxs-log-in-circle"></i>
+                                        <a href="#" class="nav-link"
+                                            >Privacy Policy</a
+                                        >
+                                    </li>
+                                    <li
+                                        class="d-flex align-items-center gap-2 ps-3 footer-link pb-2"
+                                    >
+                                        <i class="bx bxs-log-in-circle"></i>
+                                        <a href="#" class="nav-link"
+                                            >Terms & conditions</a
+                                        >
+                                    </li>
+                                    <li
+                                        class="d-flex align-items-center gap-2 ps-3 footer-link pb-2"
+                                    >
+                                        <i class="bx bxs-log-in-circle"></i>
+                                        <a href="#" class="nav-link">Career</a>
+                                    </li>
+                                    <li
+                                        class="d-flex align-items-center gap-2 ps-3 footer-link pb-2"
+                                    >
+                                        <i class="bx bxs-log-in-circle"></i>
+                                        <a href="#" class="nav-link">Help</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- footer part 4 -->
+                        <div class="col-md-3">
+                            <div class="footer-4">
+                                <h6
+                                    class="text-white border-start border-4 ps-3"
+                                >
+                                    Research
+                                </h6>
+                                <ul class="list-unstyled mt-3">
+                                    <li
+                                        class="d-flex align-items-center gap-2 ps-3 footer-link pb-2"
+                                    >
+                                        <i class="bx bxs-log-in-circle"></i>
+                                        <a href="#" class="nav-link"
+                                            >Privacy Policy</a
+                                        >
+                                    </li>
+                                    <li
+                                        class="d-flex align-items-center gap-2 ps-3 footer-link pb-2"
+                                    >
+                                        <i class="bx bxs-log-in-circle"></i>
+                                        <a href="#" class="nav-link"
+                                            >Terms & conditions</a
+                                        >
+                                    </li>
+                                    <li
+                                        class="d-flex align-items-center gap-2 ps-3 footer-link pb-2"
+                                    >
+                                        <i class="bx bxs-log-in-circle"></i>
+                                        <a href="#" class="nav-link">Career</a>
+                                    </li>
+                                    <li
+                                        class="d-flex align-items-center gap-2 ps-3 footer-link pb-2"
+                                    >
+                                        <i class="bx bxs-log-in-circle"></i>
+                                        <a href="#" class="nav-link">Help</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- footer top end -->
+
+            <!-- footer bottom start -->
+            <div class="footer-bottom bg-black py-4">
+                <div class="container text-center">
+                    <p class="mb-0 small">
+                        &copy;All rights reserved by Shuvo Sarker
+                    </p>
+                </div>
+            </div>
+            <!-- footer bottom end -->
+        </footer>
+        <!-- Footer area end -->
+
+        <!-- all js here -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="./assets/js/custom.js"></script>
+    </body>
+</html>

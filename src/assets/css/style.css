@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+    --primary: rgb(255, 117, 92);
+    --heading: #212121;
+    --text: #7a7a7a;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #232323;
+}
+p {
+    color: #878987;
+    line-height: 170%;
+}
+a {
+    text-decoration: none;
+    transition: all 0.4s ease-out 0s;
+    -webkit-transition: all 0.4s ease-out 0s;
+    -moz-transition: all 0.4s ease-out 0s;
+    -ms-transition: all 0.4s ease-out 0s;
+    -o-transition: all 0.4s ease-out 0s;
+}
+.nav-item .nav-link {
+    position: relative;
+}
+.nav-item .nav-link::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: var(--heading);
+    transition: all 0.4s ease-out 0s;
+    -webkit-transition: all 0.4s ease-out 0s;
+    -moz-transition: all 0.4s ease-out 0s;
+    -ms-transition: all 0.4s ease-out 0s;
+    -o-transition: all 0.4s ease-out 0s;
+}
+.nav-item .nav-link:hover::after {
+    width: 100%;
+    color: #000;
+    font-weight: bold;
+}
+.nav-item .nav-link.active::after {
+    font-weight: bold;
+    width: 100%;
+    color: #000;
+}
+header {
+    transition: all 0.4s ease-out 0s;
+    -webkit-transition: all 0.4s ease-out 0s;
+    -moz-transition: all 0.4s ease-out 0s;
+    -ms-transition: all 0.4s ease-out 0s;
+    -o-transition: all 0.4s ease-out 0s;
+}
+.sticky {
+    background-color: #fffa;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 100px 0 #0001;
+    padding: 0 !important;
+}
+.single-service,
+.single-testimonial {
+    background-color: #fff;
+    box-shadow: 20px 20px 100px 0 #00000008;
+    padding: 30px;
+    transition: all 0.4s ease-out 0s;
+    -webkit-transition: all 0.4s ease-out 0s;
+    -moz-transition: all 0.4s ease-out 0s;
+    -ms-transition: all 0.4s ease-out 0s;
+    -o-transition: all 0.4s ease-out 0s;
+}
+.single-service:hover,
+.single-testimonial:hover {
+    box-shadow: 20px 20px 100px 0 #00000030;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+.social {
+    display: flex;
+    gap: 10px;
+}
+.social-icons {
+    color: #aaa;
+    border: 1px solid #aaa;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    font-size: 20px;
+    transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+}
+.social-icons:hover {
+    background-color: #fff;
+    border-color: #fff;
+    color: var(--heading);
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}
+input,
+textarea,
+.btn {
+    border-radius: 0 !important;
+    -webkit-border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    -ms-border-radius: 0 !important;
+    -o-border-radius: 0 !important;
+}
+.footer-link,
+.footer-link a {
+    color: var(--text);
+    transition: all 0.4s ease-out 0s;
+    -webkit-transition: all 0.4s ease-out 0s;
+    -moz-transition: all 0.4s ease-out 0s;
+    -ms-transition: all 0.4s ease-out 0s;
+    -o-transition: all 0.4s ease-out 0s;
+}
+.footer-link:hover {
+    color: #fff;
+}
